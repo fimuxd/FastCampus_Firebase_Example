@@ -1,0 +1,6 @@
+framework module Pods_FastCampusFirebaseExample {
+  umbrella header "Pods-FastCampusFirebaseExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

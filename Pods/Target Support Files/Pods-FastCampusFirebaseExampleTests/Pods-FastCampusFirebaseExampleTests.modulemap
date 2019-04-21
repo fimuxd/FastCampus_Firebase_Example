@@ -1,0 +1,6 @@
+framework module Pods_FastCampusFirebaseExampleTests {
+  umbrella header "Pods-FastCampusFirebaseExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
