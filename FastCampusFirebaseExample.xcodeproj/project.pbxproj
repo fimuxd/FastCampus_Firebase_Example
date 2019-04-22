@@ -13,6 +13,7 @@
 		7D6C6A68226C32BB00FC74B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D6C6A67226C32BB00FC74B4 /* GoogleService-Info.plist */; };
 		7D6C6A6A226C521300FC74B4 /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C6A69226C521300FC74B4 /* EnterViewController.swift */; };
 		7D6C6A6C226C521C00FC74B4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C6A6B226C521C00FC74B4 /* SearchViewController.swift */; };
+		7D6C6A6E226DB1D300FC74B4 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C6A6D226DB1D300FC74B4 /* Alerts.swift */; };
 		7DD45108226C277D0008C453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD45107226C277D0008C453 /* AppDelegate.swift */; };
 		7DD4510D226C277D0008C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4510B226C277D0008C453 /* Main.storyboard */; };
 		7DD4510F226C277E0008C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4510E226C277E0008C453 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		7D6C6A67226C32BB00FC74B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D6C6A69226C521300FC74B4 /* EnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
 		7D6C6A6B226C521C00FC74B4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7D6C6A6D226DB1D300FC74B4 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		7DD45104226C277D0008C453 /* FastCampusFirebaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampusFirebaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD45107226C277D0008C453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD4510C226C277D0008C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				7DD45107226C277D0008C453 /* AppDelegate.swift */,
 				7D6C6A69226C521300FC74B4 /* EnterViewController.swift */,
 				7D6C6A6B226C521C00FC74B4 /* SearchViewController.swift */,
+				7D6C6A6D226DB1D300FC74B4 /* Alerts.swift */,
 				7DD4510B226C277D0008C453 /* Main.storyboard */,
 				7DD4510E226C277E0008C453 /* Assets.xcassets */,
 				7DD45110226C277E0008C453 /* LaunchScreen.storyboard */,
@@ -407,6 +410,7 @@
 				7DD45108226C277D0008C453 /* AppDelegate.swift in Sources */,
 				7D6C6A6C226C521C00FC74B4 /* SearchViewController.swift in Sources */,
 				7D6C6A6A226C521300FC74B4 /* EnterViewController.swift in Sources */,
+				7D6C6A6E226DB1D300FC74B4 /* Alerts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
