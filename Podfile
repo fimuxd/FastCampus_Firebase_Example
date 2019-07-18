@@ -10,6 +10,8 @@ target 'FastCampusFirebaseExample' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'Firebase/Analytics'
+pod 'Firebase/RemoteConfig'
 
   target 'FastCampusFirebaseExampleTests' do
     inherit! :search_paths

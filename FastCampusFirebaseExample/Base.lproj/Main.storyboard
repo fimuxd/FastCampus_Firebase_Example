@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W02-mP-1Zb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W02-mP-1Zb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -74,6 +74,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfa-Mn-BB4">
+                                <rect key="frame" x="187.5" y="105" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -88,8 +94,10 @@
                             <constraint firstItem="koQ-z7-y3Y" firstAttribute="top" secondItem="67c-uv-238" secondAttribute="bottom" constant="43" id="UNi-03-2Tc"/>
                             <constraint firstItem="7U6-cm-Cn6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="VHQ-jf-GxY"/>
                             <constraint firstItem="bx3-UI-Fny" firstAttribute="leading" secondItem="tZn-A0-ib2" secondAttribute="leading" id="YG3-Pi-TBV"/>
+                            <constraint firstItem="Zfa-Mn-BB4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Yyk-Vl-AYE"/>
                             <constraint firstItem="67c-uv-238" firstAttribute="trailing" secondItem="Rqd-c0-yUk" secondAttribute="trailing" id="a6C-SR-TEe"/>
                             <constraint firstItem="v9L-Vj-wgg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eX6-wh-sVg"/>
+                            <constraint firstItem="Zfa-Mn-BB4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="ewK-2P-EQe"/>
                             <constraint firstItem="tZn-A0-ib2" firstAttribute="leading" secondItem="7U6-cm-Cn6" secondAttribute="leading" id="iUg-r7-M56"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tg3-3W-kqO" secondAttribute="trailing" constant="101" id="ilp-UJ-yxp"/>
                             <constraint firstItem="Tg3-3W-kqO" firstAttribute="leading" secondItem="7U6-cm-Cn6" secondAttribute="leading" id="jZh-de-vok"/>
@@ -106,6 +114,7 @@
                         <outlet property="birthdayTextField" destination="Rqd-c0-yUk" id="eHP-yn-dC8"/>
                         <outlet property="emailTextField" destination="67c-uv-238" id="Hc4-Bp-s6N"/>
                         <outlet property="enterButton" destination="v9L-Vj-wgg" id="0Mj-FU-391"/>
+                        <outlet property="helloTextLabel" destination="Zfa-Mn-BB4" id="toG-lw-9eN"/>
                         <outlet property="nameTextField" destination="Tg3-3W-kqO" id="5vQ-bs-MTM"/>
                         <outlet property="statusLabel" destination="koQ-z7-y3Y" id="oND-Gd-JuW"/>
                     </connections>
