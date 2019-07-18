@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseDatabase
+import FirebaseAnalytics
 
 class SearchViewController: UIViewController {
     var ref: DatabaseReference!
@@ -41,10 +42,12 @@ class SearchViewController: UIViewController {
     
     @IBAction func searchButtonTapped(_ sender: UIButton) {
         self.searchUser()
+        Analytics.logEvent("검색하기_버튼_클릭", parameters: nil)
     }
     
     @IBAction func deleteButtonTapped(_ sender: UIButton) {
         self.deleteUser()
+        Analytics.logEvent("삭제하기_버튼_클릭", parameters: nil)
     }
     
     public func searchUser() {
