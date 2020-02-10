@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8F68D031908A0059566798048C48F776"
-               BuildableName = "FirebaseABTesting"
+               BlueprintIdentifier = "FBE50FB456E1AEBD8DC06EF9D26984AA"
+               BuildableName = "FirebaseABTesting.framework"
                BlueprintName = "FirebaseABTesting"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
